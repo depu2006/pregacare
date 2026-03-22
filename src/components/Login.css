@@ -1,0 +1,137 @@
+/* FULL PAGE */
+.login-page {
+  height: 100vh;
+
+  /* 🔥 EXACT SHADE EFFECT */
+  background:
+    linear-gradient(
+      to right,
+      rgba(0,0,0,0) 45%,
+  rgba(139, 94, 60, 0.35) 60%,   /* warm brown */
+  rgba(181, 136, 99, 0.45)    /* green */
+    ),
+    url("https://miro.medium.com/v2/resize:fit:1400/1*lTyqZFKKcZz2fiwiWvzocw.jpeg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* RIGHT SIDE WRAPPER */
+.login-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GLASS CARD */
+.login-box {
+  width: 420px;
+  padding: 40px;
+  border-radius: 25px;
+
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(15px);
+
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+/* TITLE */
+.login-box h1 {
+  text-align: center;
+  color: #1c2a4a;
+  font-size: 32px;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+/* LABEL */
+.login-box label {
+  display: block;
+  margin: 12px 0 5px;
+  color: #1c2a4a;
+  font-size: 14px;
+}
+
+/* INPUT */
+.login-box input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 15px;
+  outline: none;
+  background: #ffffff;
+}
+
+/* TEXT */
+.signup-text {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+/* BUTTON CONTAINER */
+/* BUTTON CONTAINER */
+.btns {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+/* COMMON BUTTON STYLE */
+.btns button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+
+  background: #1c2a4a;   /* 🔥 BLUE */
+  color: white;
+
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.btns button:hover {
+  background: #101a33;
+  transform: scale(1.05);
+}
+
+/* SIGNUP BUTTON */
+.signup {
+  background: #1c2a4a;
+  color: white;
+}
+
+/* LOGIN BUTTON */
+.login {
+  background: #1c2a4a;
+  color: white;
+}
+/* MESSAGE BOX */
+.msg {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* SUCCESS */
+.success {
+  background: #d4edda;
+  color: #155724;
+}
+
+/* ERROR */
+.error {
+  background: #f8d7da;
+  color: #721c24;
+}

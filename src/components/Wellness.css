@@ -1,0 +1,38 @@
+.wellness {
+  min-height: 100vh;
+  padding: 30px;
+
+  background-image: linear-gradient(
+      rgba(245, 237, 228, 0.85),
+      rgba(245, 237, 228, 0.85)
+    ),
+    url("https://images.unsplash.com/photo-1506126613408-eca07ce68773");
+
+  background-size: cover;
+  background-position: center;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px);
+
+  text-align: center;
+  cursor: pointer;
+
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
